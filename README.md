@@ -95,7 +95,7 @@ The design and development of the MBBS Abroad Lead Generation Form focused on pr
 
 ### GitHub Repository
 
-- [GitHub Repository Link](https://github.com/prashantkumarpro/GoMed-Abroad/edit/main)
+- [GitHub Repository Link](https://github.com/prashantkumarpro/GoMed-Abroad)
 
 ---
 
