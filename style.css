@@ -13,7 +13,7 @@ body {
   scroll-behavior: smooth;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
-  color: #333; /* Ensures good readability */
+  color: #333;
 }
 h1,
 h2,
@@ -71,6 +71,7 @@ nav a:hover {
   transition: 0.3s;
 }
 
+/* loader  */
 #loader {
   position: fixed;
   top: 0;
@@ -78,7 +79,7 @@ nav a:hover {
   width: 100%;
   height: 100%;
   background: rgba(255, 255, 255, 0.7);
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   z-index: 999;
@@ -86,7 +87,7 @@ nav a:hover {
 
 .spinner {
   border: 4px solid rgba(255, 255, 255, 0.3);
-  border-top: 4px solid #ff6600; /* Matching primary color */
+  border-top: 4px solid #ff6600;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -188,6 +189,7 @@ nav a:hover {
   color: #ff6600;
   font-size: 28px;
   margin-bottom: 15px;
+  line-height: 30px;
 }
 
 .sub-heading {
@@ -251,6 +253,8 @@ nav a:hover {
   font-size: 28px;
   color: #ff6600;
   margin-bottom: 10px;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
 
 .admission p {
@@ -440,28 +444,28 @@ h2 {
   display: none;
 }
 
-/* Media Queries for responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   header {
     justify-content: space-between;
     padding: 20px 40px;
   }
   .nav {
-    display: none;
-    flex-direction: column;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     top: 69px;
     right: 0;
     background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 320px;
-    text-align: right;
+    width: 0;
+    overflow: hidden;
     height: 100vh;
     padding: 10px 0;
+    transition: width 0.3s ease-in;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
   .nav a {
-    display: block;
     padding: 10px;
     margin-top: 15px;
     margin-right: 20px;
@@ -473,6 +477,8 @@ h2 {
 
   .nav.active {
     display: flex;
+    width: 280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
   /* Transform bars into a cross */
@@ -487,6 +493,17 @@ h2 {
   .menu-toggle.active .bar:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
   }
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .nav {
+    top: 69px;
+  }
 
   .hero {
     flex-direction: column-reverse;
@@ -496,7 +513,8 @@ h2 {
 
   .hero-image {
     width: 100%;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
   }
 
   .hero-text {
@@ -523,12 +541,12 @@ h2 {
   }
 
   .form-container {
-    width: 95%;
+    max-width: 720px;
     padding: 20px;
   }
 
   .form-container h2 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 
   .form-group input,
@@ -561,12 +579,16 @@ h2 {
   }
 
   .form-container {
-    width: 100%;
+    width: 90%;
     padding: 15px;
   }
 
   .form-container h2 {
     font-size: 1.5rem;
+    line-height: 25px;
+  }
+  .form-container p {
+    margin-bottom: 20px;
   }
 
   .form-group input,
