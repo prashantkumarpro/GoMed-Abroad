@@ -21,8 +21,8 @@ This project is a fully responsive landing page for "Study MBBS Abroad," designe
 ## Installation & Setup
 1. Clone the repository:
    ```bash
- git clone https://github.com/yourusername/GoMed-Abroad.git
-   cd study-mbbs-abroad
+       git clone https://github.com/yourusername/GoMed-Abroad.git
+       cd study-mbbs-abroad
    ```
 2. Open `index.html` in a browser to view the landing page.
 3. Deploy on Netlify/Vercel for live hosting.
