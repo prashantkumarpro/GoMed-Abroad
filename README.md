@@ -1,49 +1,47 @@
 # GoMed Abroad - Study MBBS Abroad (Landing Page)
 
 ## Project Overview
-GoMed Abroad is a fully responsive landing page designed to help students explore top destinations for studying MBBS abroad. The page provides details about different countries, the admission process, and a lead generation form for inquiries.
+This project is a fully responsive landing page for "Study MBBS Abroad," designed to help students explore international MBBS programs, understand the admission process, and submit inquiries through a lead generation form.
 
 ## Features
-- **Hero Section:** Eye-catching banner with a call-to-action (CTA) button.
-- **Why Study MBBS Abroad:** Highlights the key benefits of pursuing medical education abroad.
-- **Top Countries:** Displays information on Russia, Uzbekistan, Kazakhstan, Philippines, Georgia, Kyrgyzstan, and Egypt.
-- **Admission Process & Eligibility:** Step-by-step guide on how to apply.
-- **Lead Generation Form:** Includes fields for name, email, phone, and country preference with form validation.
-- **Responsive Design:** Optimized for all screen sizes using HTML, CSS (Tailwind/Bootstrap), and JavaScript.
-- **Form Validation:** Implemented using JavaScript to ensure required fields are filled.
-- **Smooth Navigation:** Interactive menu with a mobile-friendly toggle button.
+- **Hero Section:** Eye-catching banner with a call-to-action.
+- **Why Study MBBS Abroad:** Highlights key benefits of studying MBBS overseas.
+- **Top Countries:** Showcases top destinations (Russia, Uzbekistan, Kazakhstan, Philippines, Georgia, Kyrgyzstan, Egypt).
+- **Admission Process & Eligibility:** Step-by-step guide for students.
+- **Lead Generation Form:** Collects student details (name, email, phone, country preference) for follow-up.
+- **Responsive Design:** Optimized for mobile, tablet, and desktop screens.
+- **SEO Optimization (Planned):** Basic meta tags and performance enhancements.
+- **Performance Optimized:** Fast loading and minimal external dependencies.
 
 ## Technologies Used
-- **HTML5**: For structuring the page.
-- **CSS3 (Tailwind/Bootstrap)**: For styling and responsiveness.
-- **JavaScript (ES6)**: For interactivity and form validation.
-- **Google Fonts & Icons**: For better typography and visual appeal.
+- **HTML, CSS, JavaScript** for frontend development.
+- **Form Validation:** Implemented using JavaScript.
+- **Google Analytics & Facebook Pixel (Pending):** For user tracking and analytics.
 
 ## Installation & Setup
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/yourusername/GoMed-Abroad.git
+1. Clone the repository:
+   ```bash
+ git clone https://github.com/yourusername/GoMed-Abroad.git
+   cd study-mbbs-abroad
    ```
-2. Navigate to the project folder:
-   ```sh
-   cd gomed-abroad
-   ```
-3. Open `index.html` in a browser to preview the landing page.
+2. Open `index.html` in a browser to view the landing page.
+3. Deploy on Netlify/Vercel for live hosting.
 
 ## Deployment
-This project can be deployed using **Netlify** or **Vercel**:
-1. Push the code to a GitHub repository.
-2. Connect the repository to Netlify or Vercel.
-3. Deploy the project and obtain a live demo link.
+- Hosted on (https://go-med-abroad.vercel.app/)
+## Future Enhancements
+- **SEO Improvements:** Meta descriptions, Open Graph tags, sitemap, and schema markup.
+- **Backend Integration (Optional):** Use PHP or Node.js for form submissions.
+- **Performance Tracking:** Implement Google Analytics and Facebook Pixel.
 
-## Future Improvements
-- **SEO Optimization:** Add metadata, alt text for images, and structured data.
-- **Performance Tracking:** Integrate Google Analytics and Facebook Pixel.
-- **Backend Integration:** Use PHP for handling form submissions and database storage.
-
-## Live Demo
-[Live Project Link](#) (https://go-med-abroad.vercel.app/)
+## Contribution
+If you'd like to contribute, fork the repository and submit a pull request with improvements.
 
 ## Author
 Developed by [Prashant Kumar](https://github.com/prashantkumarpro).
+
+---
+*This project was developed as part of the University Insights Front-End Development Internship application.*
+
+
 
