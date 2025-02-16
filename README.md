@@ -1,7 +1,7 @@
 ﻿# GoMed-Abroad
-### README for MBBS Abroad Form
+### README for MBBS Abroad 
 
-## Project Title: MBBS Abroad Lead Generation Form
+## Project Title: MBBS Abroad 
 
 ### Description:
 This project is a lead generation form for students who are interested in pursuing MBBS abroad. It collects essential information such as name, email, phone number, and the country of interest. The form features a responsive layout, input validation, and a loading spinner upon form submission.
