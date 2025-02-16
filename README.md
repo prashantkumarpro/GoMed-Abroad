@@ -42,7 +42,7 @@ This project can be deployed using **Netlify** or **Vercel**:
 - **Backend Integration:** Use PHP for handling form submissions and database storage.
 
 ## Live Demo
-[Live Project Link](#) (https://github.com/prashantkumarpro/GoMed-Abroad)
+[Live Project Link](#) (https://go-med-abroad.vercel.app/)
 
 ## Author
 Developed by [Prashant Kumar](https://github.com/prashantkumarpro).
